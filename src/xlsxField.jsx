@@ -2,10 +2,18 @@ import React from 'react'
 import { Field } from 'simple-react-form'
 import XLSX from 'xlsx-browserify-shim'
 import File from 'simple-react-form-material-ui/lib/file'
+import autobind from 'autobind-decorator'
 /* global FileReader */
 
 export default class XlsxField extends React.Component {
 
+  static propTypes = {
+    parserOptions: React.PropTypes.object,
+    onChange: React.PropTypes.func,
+    fieldName: React.PropTypes.string
+  }
+
+  @autobind
   parseXls ({file, onProgress, onReady, onError}) {
     const reader = new FileReader()
 
@@ -24,7 +32,7 @@ export default class XlsxField extends React.Component {
     return (
       <Field
         fieldName={this.props.fieldName}
-        upload={this.parseXls.bind(this)}
+        upload={this.parseXls}
         onChange={this.props.onChange}
         type={File} />
     )
