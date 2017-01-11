@@ -1,6 +1,6 @@
 {
   "name": "srf-mui-xlsx-field",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple React Form field that allows you import information from excel",
   "main": "./lib",
   "repository": "robertzibert/srf-mui-xlsx-field",
