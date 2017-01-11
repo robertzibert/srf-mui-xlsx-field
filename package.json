@@ -37,12 +37,14 @@
     "react": "^15.4.2",
     "simple-react-form": "^1.8.0",
     "standard": "*",
-    "xlsx-browserify-shim": "^0.0.5"
+    "xlsx-browserify-shim": "^0.0.5",
+    "lodash": "^4.17.4"
   },
   "peerDependencies": {
     "react": "^15.4.2",
     "simple-react-form": "^1.8.0",
-    "xlsx-browserify-shim": "^0.0.5"
+    "xlsx-browserify-shim": "^0.0.5",
+    "lodash": "^4.17.4"
   },
   "license": "MIT",
   "dependencies": {
