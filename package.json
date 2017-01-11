@@ -34,9 +34,9 @@
     "babel-preset-stage-2": "^6.5.0",
     "eslint": ">=3.0.0",
     "jest-cli": "^15.1.1",
-    "standard": "*",
     "react": "^15.4.2",
     "simple-react-form": "^1.8.0",
+    "standard": "*",
     "xlsx-browserify-shim": "^0.0.5"
   },
   "peerDependencies": {
@@ -45,5 +45,7 @@
     "xlsx-browserify-shim": "^0.0.5"
   },
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }
