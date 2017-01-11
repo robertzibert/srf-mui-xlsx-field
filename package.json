@@ -1,0 +1,24 @@
+{
+  "name": "srf-mui-xlsx-field",
+  "version": "1.0.0",
+  "description": "Simple React Form field that allows you import information from excel",
+  "main": "index.js",
+  "repository": "robertzibert/srf-mui-xlsx-field",
+  "author": [
+    {
+      "name": "Robert Zibert",
+      "email": "robert@orionsoft.io",
+      "url": "https://github.com/robertzibert"
+    },
+    {
+      "name": "Joaquín Diaz",
+      "url": "https://github.com/joadr"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.2",
+    "simple-react-form": "^1.8.0",
+    "xlsx-browserify-shim": "^0.0.5"
+  }
+}
