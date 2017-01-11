@@ -1,6 +1,6 @@
 {
   "name": "srf-mui-xlsx-field",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple React Form field that allows you import information from excel",
   "main": "./lib",
   "repository": "robertzibert/srf-mui-xlsx-field",
@@ -45,7 +45,5 @@
     "xlsx-browserify-shim": "^0.0.5"
   },
   "license": "MIT",
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
